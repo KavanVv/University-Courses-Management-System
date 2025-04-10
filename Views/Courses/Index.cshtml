@@ -1,0 +1,16 @@
+@model IEnumerable<UniversityManagement.Models.Course>
+
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<h2>Courses</h2>
+
+<partial name="_CourseListPartial" />
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Add New Course</a>
+    </p>
+}
