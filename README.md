@@ -2,7 +2,7 @@
 
 A simple web-based University Management System built with ASP.NET Core MVC, Entity Framework Core, and Identity for authentication and authorization.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - ASP.NET Core MVC (.NET 6 / 7)
 - Entity Framework Core
@@ -12,17 +12,17 @@ A simple web-based University Management System built with ASP.NET Core MVC, Ent
 
 ---
 
-## 🎯 Features
+##  Features
 
-- 🔐 Role-based login (Admin, Faculty, Student)
-- 🧑 Admin:
+- Role-based login (Admin, Faculty, Student)
+- Admin:
   - Create, edit, delete, and view courses
-- 👀 Viewer (Faculty/Student):
+- Viewer (Faculty/Student):
   - View courses only (read-only access)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -56,7 +56,7 @@ Visit: http://localhost:5000
 
 ---
 
-## 👥 User Roles
+## User Roles
 
 - Register a new account: `/Identity/Account/Register`
 - After registration, manually assign Admin role using DB (AspNetUserRoles table).
@@ -65,7 +65,7 @@ Visit: http://localhost:5000
 
 ---
 
-## 🔑 Default Admin Account (if seeded manually)
+## Default Admin Account (if seeded manually)
 
 Email: admin@university.com  
 Password: Admin@123  
@@ -84,13 +84,13 @@ Role: Admin
 
 ---
 
-## 🙌 Contributing
+##  Contributing
 
 Feel free to fork and raise a pull request if you'd like to improve this system!
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
